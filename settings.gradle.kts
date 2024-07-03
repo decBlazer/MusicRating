@@ -20,5 +20,9 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "MusicRating"
-include(":app")
- 
+include("app")
+include("data")
+include("common")
+include("domain")
+include("testing")
+include("ui")
